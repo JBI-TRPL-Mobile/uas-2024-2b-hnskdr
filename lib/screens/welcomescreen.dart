@@ -10,11 +10,19 @@ class WelcomeScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Spacer(),
-          Placeholder(fallbackHeight: 200),
-          Text(
-            "Selamat Datang, Semoga Harimu Menyenangkan.",
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+          Image.asset(
+            'assets/images/minju.jpg', 
+            height: 200, 
           ),
+          SizedBox(height: 20),
+         Text(
+                "Selamat Datang, Semoga harimu menyenangkan.",
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
           Spacer(),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,

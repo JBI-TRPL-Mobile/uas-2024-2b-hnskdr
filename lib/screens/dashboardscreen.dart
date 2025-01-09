@@ -12,7 +12,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   int _selectedIndex = 0;
 
   final List<Widget> _screens = [
-    Center(child: Text("Home")), // Halaman Home sederhana
+    Center(child: Text("Home")),
     MessageScreen(),
     ProfileScreen(),
   ];

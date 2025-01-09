@@ -15,7 +15,6 @@ class MessageScreen extends StatelessWidget {
             title: Text("User $index"),
             subtitle: Text("Message $index"),
             onTap: () {
-              // Implementasikan fitur membaca pesan
             },
           );
         },
