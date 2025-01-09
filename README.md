@@ -24,4 +24,12 @@ NAMA : HENDRA ISKANDAR SHAH
 KELAS : 2B TRPL
 
 
+# 1
+![image.png](image.png)
+
+# 2
+![image1.png](image-1.png)
+
+# 3
+![image2.png](image-2.png)
 
