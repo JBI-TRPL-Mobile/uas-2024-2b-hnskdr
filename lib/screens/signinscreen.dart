@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dashboard_screen.dart';
+import 'dashboardscreen.dart';
 
 class SignInScreen extends StatelessWidget {
   @override
