@@ -10,9 +10,9 @@ class WelcomeScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Spacer(),
-          Placeholder(fallbackHeight: 200), // Gambar/logo
+          Placeholder(fallbackHeight: 200),
           Text(
-            "Welcome",
+            "Selamat Datang, Semoga Harimu Menyenangkan.",
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
           Spacer(),
