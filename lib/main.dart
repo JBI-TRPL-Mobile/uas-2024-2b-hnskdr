@@ -1,17 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:template_project/provider/providerku.dart';
-import 'package:template_project/page/halamanlogin.dart';
-import 'package:template_project/page/halamanregister.dart';
-import 'package:template_project/page/halamanpertama.dart';
+import 'screens/welcomescreen.dart';
 
 void main() {
-  runApp(
-    ChangeNotifierProvider(
-      create: (context) => Providerku(),
-      child: MyApp(),
-    ),
-  );
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -19,14 +10,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'LOIN&REGISTER FLUTTER',
+      title: 'Project UAS Mobile Dev Hendra Iskandar Shah',
       theme: ThemeData(primarySwatch: Colors.blue),
-      initialRoute: '/',
-      routes: {
-        '/': (context) => Dash(),
-        '/register': (context) => Registerpage(),
-        '/login': (context) => Loginpage(),
-      },
+      home: WelcomeScreen(),
     );
   }
 }
